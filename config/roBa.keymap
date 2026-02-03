@@ -88,7 +88,7 @@
 &kp ESC           &kp Q         &kp W         &kp E                        &kp R                                                          &kp Y        &kp U  &lt 6 I    &kp O    &lt 4 P
 &kp LSHFT         &kp A         &kp S         &kp D                        &kp F        &msc MOVE_Y(0)                     &kp T          &kp H        &kp J  &kp K      &kp L    &kp LEFT_PARENTHESIS
 &kp LEFT_CONTROL  &kp Z         &kp X         &kp C                        &kp V        &kp B                              &kp G          &kp N        &kp M  &kp UNDER  &kp DOT  &kp RPAR
-&kp UNDERSCORE    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -128,7 +128,7 @@
 &kp ESC           &kp Q   &kp W   &kp E   &kp R                          &trans  &trans          &trans    &mkp MB2  &trans
 &kp LSHIFT        &kp A   &kp S   &kp D   &kp F      &trans      &trans  &trans  &kp UP_ARROW    &mkp MB1  &mkp MB5  &trans
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp V      &kp B       &trans  &trans  &kp DOWN_ARROW  &mkp MB4  &trans    &trans
-&trans            &trans  &trans  &trans  &kp SPACE  &trans      &trans  &trans                                      &trans
+&kp TAB           &trans  &trans  &trans  &kp SPACE  &trans      &trans  &trans                                      &trans
             >;
         };
 
